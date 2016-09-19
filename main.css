@@ -1,0 +1,183 @@
+body {
+  text-align: center;
+}
+
+.container-main {
+  color:  #81bce5;
+  font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin: 15px;
+}
+
+#blue-shirt .color {
+  color: #81bce5;
+}
+
+#pink-shirt .color {
+  color: #d583ac;
+}
+
+#yellow-shirt .color {
+  color: #deb17e;
+}
+
+div.main-block {
+  border: 3px solid  #81bce5;
+  position: relative;
+  overflow: hidden;
+}
+
+img.shirt {
+  padding: 20px
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.rotate-arrow {
+  border-left: 3px solid  #81bce5;
+  border-bottom: 3px solid  #81bce5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+}
+
+div.rotate-arrow:hover {
+  background: #81bce5;
+  color: white;
+}
+
+ul.icon-buttons li:hover {
+  background: #81bce5;
+  color: white;
+}
+
+.icon-buttons {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.toggles > .fa {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon-buttons > li {
+  width: 20%;
+  height: 60px;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  border-top: 3px solid  #81bce5;
+  border-right: 3px solid  #81bce5;
+}
+
+.toggles:hover .hidden{
+  opacity: 1;
+  transition: all .5s ease .2s;
+  transform: translateY(0px);
+}
+
+.toggles {
+  overflow: visible;
+}
+
+li.shopping-cart {
+  border-right: 0;
+}
+
+.hidden {
+  overflow: hidden;
+  opacity: 0;
+  transition: all .4s ease;
+  background: white;
+  position: absolute;
+  bottom: 100%;
+  width: 95px;
+  left: -9px;
+  padding: 0;
+  border: 3px solid  #81bce5;
+  color: #81bce5;
+  transform: translateY(-40px);
+}
+
+.colors {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.color-boxes {
+  padding: 15px;
+}
+
+li.sizes {
+  float: none;
+  text-align: center;
+  background-image: url(http://www.iconarchive.com/download/i97169/iconsmind/outline/T-Shirt.ico);
+  height: 30px;
+  line-height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.shirt-sizes {
+  padding: 15px 0;
+}
+
+.xl {
+  background-size: auto 100%;
+  font-size: .7em;
+}
+
+.l {
+  background-size: auto 90%;
+  font-size: .65em;
+}
+
+.m {
+  background-size: auto 80%;
+  font-size: .6em;
+}
+
+.s {
+  background-size: auto 70%;
+  font-size: .55em;
+}
+
+.pink {
+  color: #d583ac;
+  margin-left: 5px;
+}
+
+.yellow {
+  color: #deb17e;
+  margin-top: 5px;
+}
+
+.green {
+  color: #8bb992;
+  margin: 5px 0 0 5px;
+}
+footer {
+  font-size: 30px;
+}
+
+.product-name {
+  float: left;
+  padding: 15px 5px 0 0;
+}
+
+.price  {
+  font-weight: bold;
+  float: right;
+  padding: 15px 0 0 5px;
+}
