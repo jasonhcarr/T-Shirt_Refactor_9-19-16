@@ -9,6 +9,7 @@ body {
   vertical-align: top;
   overflow: hidden;
   margin: 15px;
+  width: 20%
 }
 
 #blue-shirt .color {
@@ -23,14 +24,15 @@ body {
   color: #deb17e;
 }
 
-div.main-block {
+.main-block {
   border: 3px solid  #81bce5;
   position: relative;
   overflow: hidden;
 }
 
-img.shirt {
-  padding: 20px
+.shirt {
+  margin: 20px auto;
+  width: 90%;
 }
 
 ul {
@@ -119,7 +121,7 @@ li.shopping-cart {
   padding: 15px;
 }
 
-li.sizes {
+.sizes {
   float: none;
   text-align: center;
   background-image: url(http://www.iconarchive.com/download/i97169/iconsmind/outline/T-Shirt.ico);
@@ -180,4 +182,22 @@ footer {
   font-weight: bold;
   float: right;
   padding: 15px 0 0 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container-main {
+    width: 28%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container-main {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .container-main {
+    width: 95%;
+  }
 }
